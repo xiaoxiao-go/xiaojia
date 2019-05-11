@@ -1,0 +1,844 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: #DDDDDD;
+}
+#logo{
+  margin-top: 40px;
+}
+#logo img{
+  width: 100px;
+  height: 100px;
+}
+body{
+  width: 1100px;
+  margin: 0 auto;
+}
+#xiala{
+  display: none;
+}
+#xiala img{
+  margin-top: 5px;
+}
+#nav{
+  margin-top: 20px;
+  width: 1100px;
+  background:#007799;
+  height: 80px;
+}
+#nav li{
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+  color: black;
+  line-height: 80px;
+  font-size: 20px;
+}
+#datu{
+   width: 1100px;
+   height: 500px;
+   position: relative;
+}
+#datu img{
+   width: 1100px;
+  height: 500px;
+}
+#photo li{
+  list-style: none;
+  position:absolute;
+}
+ #btn{
+    width: 200px;
+    height: 50px;
+    z-index: 100;
+    right: 400px;
+    bottom: 0px;
+    position: absolute;
+  }
+  #btn li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 15px;
+    background: white;
+    border: solid 2px #888888;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .bg{
+    background: red!important;
+  }
+#neirong{
+  height: 900px;
+  position: relative;
+}
+#left{
+  width:800px;
+  height: 900px;
+  background: white;
+  position: absolute;
+}
+#left hgroup{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+form img{
+  width:9%;
+  position: absolute;
+}
+form:hover{
+  cursor: pointer;
+}
+#tupian img{
+  position: absolute;
+  width: 730px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+#section{  
+  margin-top: 280px;
+  width: 730px;
+  margin-left: 30px;
+  color:black;
+}
+#section1{
+  width: 730px;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: black;
+}
+#section1 ul{
+  color: black;
+  line-height: 25px;
+  margin-left:25px; 
+  margin-top: 10px;
+}
+
+#section2{
+  position: absolute;
+  margin-top: 15px;
+  width: 730px;
+  margin-left: 30px;
+}
+#section2 ul{
+  color: black;
+  line-height: 25px;
+  margin-left:25px; 
+  margin-top: 10px;
+}
+#right{
+  border-radius: 20px;
+  position: absolute;
+  width: 280px;
+  height: 220px;
+  background:  white;
+  right: 10px;
+  float: right;
+}
+#first{
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 240px;
+}
+#second{
+  margin-top: 20px;
+  width: 220px;
+  border-radius: 20px;
+  height: 200px;
+  padding: 30px;
+  background: white;
+}
+#second span{
+  margin-left: 20px;
+}
+#footright li{
+  list-style: none;
+}
+#footzhong li{
+  list-style: none;
+}
+/*媒体样式  */
+@media only screen and (max-width:415px) and (min-width:376px)
+{
+      body{
+        width: 100%;
+        height: 1450px;
+        background:white;
+      }
+/*   logo部分     */
+      #logo {
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      #logo img{
+        width: 70px;
+        height: 70px;
+      }
+  #xiala a img{
+    width: 9%;
+    
+  }
+/*   标题部分     */
+       #h1{
+         width:300px;
+         margin-left: 20%;
+         font-size: 25px;
+         text-align: center;
+         color: red!important;
+         position: absolute;
+         top: 20px;
+         
+      }
+/*    导航部分    */
+      #xiala{
+        width: 100%;
+        background:#880000;
+        font-size: 30px;
+        display: block;
+        
+      }
+  #datu{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+  #photo li img{
+    width: 414px;
+    height: 180px;
+  }
+  #photo li{
+    position: absolute;
+  }
+  #btn{
+    width: 150px;
+    height: 25px;
+    z-index: 100;
+    right: 25%;
+    bottom: 0px;
+    position: absolute;
+  }
+  #btn li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 15px;
+    background: white;
+    border: solid 2px #888888;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .bg{
+    background: red!important;
+  }
+/*-----------------------------------------    */
+      #nav{
+        margin-top: 0px;
+        width: 100%;
+        height: 50px;
+        background:whitesmoke;
+        border-radius: 0px;   
+      }
+      #nav{
+        display: none;
+      }
+      #nav li{
+        font-size: 15px;
+        margin-left: 6%;
+        line-height: 25px;
+      }
+  .fengexian{
+    background: #880000 ;
+    height: 3px;
+  }
+      form{
+        float: right;
+        width: 200px;
+      }
+      form input{
+        border-radius: 15px;
+        width: 110px;
+      } 
+/*   文字部分     */
+      #neirong{
+        width: 100%;
+        margin-top: 0px;
+      }
+/*    左边    */
+      #left{
+        width: 100%;
+        background: white;
+      }
+  /*  第一个标题      */
+      hgroup{
+       margin-left:10px!important; 
+      }
+      hgroup h1{
+        background: red;
+        color: white;
+        width: 100px;
+        padding: 3px;
+        font-size: 25px!important;
+      }
+  #tupian img{
+   width: 90%;
+   right: 5%;
+  }
+      #left img{
+        max-width: 100% ;
+        margin-left: 0px;
+        margin-top: 25%;
+      }
+      #section{
+        width: 90%;
+        padding: 0px;
+        margin-left: 5%;
+        margin-top: 50%;
+        color: black;
+      }
+      #wenzi1{
+        display: none;
+      }
+  #zhankai{
+    display: block;
+  }
+      #section1{
+        margin-left: 0px;
+        width: 100%;
+        
+      }
+      #section1 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }
+      #section2{
+        width: 100%;
+        height: 460px;
+        margin-top: 0px;
+        margin-left: 0px; 
+      }
+      #section2 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }  
+  #right{
+    float: none;
+    bottom: -40%;
+    width: 100%;
+    right: 0px;
+    background: whitesmoke;
+    border-radius: 0px;
+        }
+  #yi{
+    width: 25px;
+    background: red;
+    padding: 5px;
+    font-weight: bold;
+    color: white!important;
+    float: left;
+  }
+  #er{
+    width: 100%;
+    margin-left: 60px;
+    line-height: 34px;
+  }
+  #xian{
+    margin-top: 20px;
+  }
+  #second{
+    background: #880000 ;
+    color: white;
+    margin-top: 0px;
+    border-radius: 0px;
+    width: 85.5%;
+    height: 18px;
+   }
+  #footzhong li{
+    list-style: none;
+  }
+  #footzhong{
+    width: 40%;
+    float: left;
+    margin-top:-5%;
+    margin-left: -5%;
+    font-size: 12px;
+  }
+   #footright li{
+    list-style: none;
+  }
+  #footright{
+    width: 60%;
+    float: left;
+     margin-top:-5%;
+    margin-left:5%;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:376px) and (min-width:321px)
+{ body{
+        width: 100%;
+        height: 1450px;
+        background:white;
+      }
+/*   logo部分     */
+      #logo {
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      #logo img{
+        width: 70px;
+        height: 70px;
+      }
+  #xiala a img{
+    width: 9%;
+    
+  }
+/*   标题部分     */
+       #h1{
+         width:300px;
+         margin-left: 20%;
+         font-size: 25px;
+         text-align: center;
+         color: red!important;
+         position: absolute;
+         top: 20px;
+         
+      }
+/*    导航部分    */
+      #xiala{
+        width: 100%;
+        background:#880000;
+        font-size: 30px;
+        display: block;
+        
+      }
+  #datu{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+  #photo li img{
+    width: 414px;
+    height: 180px;
+  }
+  #photo li{
+    position: absolute;
+  }
+  #btn{
+    width: 150px;
+    height: 25px;
+    z-index: 100;
+    right: 25%;
+    bottom: 0px;
+    position: absolute;
+  }
+  #btn li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 15px;
+    background: white;
+    border: solid 2px #888888;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .bg{
+    background: red!important;
+  }
+/*-----------------------------------------    */
+      #nav{
+        margin-top: 0px;
+        width: 100%;
+        height: 50px;
+        background:whitesmoke;
+        border-radius: 0px;   
+      }
+      #nav{
+        display: none;
+      }
+      #nav li{
+        font-size: 15px;
+        margin-left: 6%;
+        line-height: 25px;
+      }
+  .fengexian{
+    background: #880000 ;
+    height: 3px;
+  }
+      form{
+        float: right;
+        width: 200px;
+      }
+      form input{
+        border-radius: 15px;
+        width: 110px;
+      } 
+/*   文字部分     */
+      #neirong{
+        width: 100%;
+        margin-top: 0px;
+      }
+/*    左边    */
+      #left{
+        width: 100%;
+        background: white;
+      }
+  /*  第一个标题      */
+      hgroup{
+       margin-left:10px!important; 
+      }
+      hgroup h1{
+        background: red;
+        color: white;
+        width: 100px;
+        padding: 3px;
+        font-size: 25px!important;
+      }
+  #tupian img{
+   width: 90%;
+   right: 5%;
+  }
+      #left img{
+        max-width: 100% ;
+        margin-left: 0px;
+        margin-top: 25%;
+      }
+      #section{
+        width: 90%;
+        padding: 0px;
+        margin-left: 5%;
+        margin-top: 50%;
+        color: black;
+      }
+      #wenzi1{
+        display: none;
+      }
+  #zhankai{
+    display: block;
+  }
+      #section1{
+        margin-left: 0px;
+        width: 100%;
+        
+      }
+      #section1 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }
+      #section2{
+        width: 100%;
+        height: 460px;
+        margin-top: 0px;
+        margin-left: 0px; 
+      }
+      #section2 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }  
+  #right{
+    float: none;
+    bottom: -41%;
+    width: 100%;
+    right: 0px;
+    background: whitesmoke;
+    border-radius: 0px;
+        }
+  #yi{
+    width: 25px;
+    background: red;
+    padding: 5px;
+    font-weight: bold;
+    color: white!important;
+    float: left;
+  }
+  #er{
+    width: 100%;
+    margin-left: 60px;
+    line-height: 34px;
+  }
+  #xian{
+    margin-top: 20px;
+  }
+  #second{
+    background: #880000 ;
+    color: white;
+    margin-top: 0px;
+    border-radius: 0px;
+    width: 84%;
+    height: 18px;
+   }
+  #footzhong li{
+    list-style: none;
+  }
+  #footzhong{
+    width: 40%;
+    float: left;
+    margin-top:-5%;
+    margin-left: -8%;
+    font-size: 12px;
+  }
+   #footright li{
+    list-style: none;
+  }
+  #footright{
+    width: 65%;
+    float: right;
+     margin-top:-5%;
+    margin-left: 3%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:321px)
+{ body{
+        width: 100%;
+        height: 1450px;
+        background:white;
+      }
+/*   logo部分     */
+      #logo {
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      #logo img{
+        width: 70px;
+        height: 70px;
+      }
+  #xiala a img{
+    width: 9%;
+    
+  }
+/*   标题部分     */
+       #h1{
+         width:230px;
+         right: 0%;
+         font-size: 25px;
+         text-align: center;
+         color: red!important;
+         position: absolute;
+         top: 20px;
+         
+      }
+/*    导航部分    */
+      #xiala{
+        width: 100%;
+        background:#880000;
+        font-size: 30px;
+        display: block;
+        
+      }
+  #datu{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
+  #photo li img{
+    width: 414px;
+    height: 180px;
+  }
+  #photo li{
+    position: absolute;
+  }
+  #btn{
+    width: 150px;
+    height: 25px;
+    z-index: 100;
+    right: 25%;
+    bottom: 0px;
+    position: absolute;
+  }
+  #btn li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 15px;
+    background: white;
+    border: solid 2px #888888;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .bg{
+    background: red!important;
+  }
+/*-----------------------------------------    */
+      #nav{
+        margin-top: 0px;
+        width: 100%;
+        height: 50px;
+        background:whitesmoke;
+        border-radius: 0px;   
+      }
+      #nav{
+        display: none;
+      }
+      #nav li{
+        font-size: 15px;
+        margin-left: 6%;
+        line-height: 25px;
+      }
+  .fengexian{
+    background: #880000 ;
+    height: 3px;
+  }
+      form{
+        float: right;
+        width: 200px;
+      }
+      form input{
+        border-radius: 15px;
+        width: 110px;
+      } 
+/*   文字部分     */
+      #neirong{
+        width: 100%;
+        margin-top: 0px;
+      }
+/*    左边    */
+      #left{
+        width: 100%;
+        background: white;
+      }
+  /*  第一个标题      */
+      hgroup{
+       margin-left:10px!important; 
+      }
+      hgroup h1{
+        background: red;
+        color: white;
+        width: 100px;
+        padding: 3px;
+        font-size: 25px!important;
+      }
+  #tupian img{
+   width: 90%;
+   right: 5%;
+  }
+      #left img{
+        max-width: 100% ;
+        margin-left: 0px;
+        margin-top: 25%;
+      }
+      #section{
+        width: 90%;
+        padding: 0px;
+        margin-left: 5%;
+        margin-top: 50%;
+        color: black;
+      }
+      #wenzi1{
+        display: none;
+      }
+  #zhankai{
+    display: block;
+  }
+      #section1{
+        margin-left: 0px;
+        width: 100%;
+        
+      }
+      #section1 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }
+      #section2{
+        width: 100%;
+        height: 460px;
+        margin-top: 0px;
+        margin-left: 0px; 
+      }
+      #section2 h2{
+        background: red;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left:10px;
+      }  
+  #right{
+    float: none;
+    bottom: -48%;
+    width: 100%;
+    left: 0px;
+    background: whitesmoke;
+    border-radius: 0px;
+        }
+  #yi{
+    width: 25px;
+    background: red;
+    padding: 5px;
+    font-weight: bold;
+    color: white!important;
+    float: left;
+  }
+  #er{
+    width: 80%;
+    margin-left: 60px;
+    line-height: 34px;
+  }
+  #xian{
+    margin-top: 20px;
+  }
+  #second{
+    background: #880000 ;
+    color: white;
+    margin-top: 0px;
+    border-radius: 0px;
+    width: 81%;
+    height: 10px;
+   }
+  #footzhong li{
+    list-style: none;
+  }
+  #footzhong{
+    width: 40%;
+    float: left;
+    margin-top:-9%;
+    margin-left: -8%;
+    font-size: 10px;
+  }
+   #footright li{
+    list-style: none;
+  }
+  #footright{
+    width: 65%;
+    float: right;
+     margin-top:-9%;
+    margin-left: 3%;
+    font-size: 10px;
+  }
+}
+
+
